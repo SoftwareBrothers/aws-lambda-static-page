@@ -1,0 +1,7 @@
+extends layout.pug
+include mixins/example-component.pug
+
+block content
+  .div
+    | here goes default content
+    +exampleComponent('some-name')

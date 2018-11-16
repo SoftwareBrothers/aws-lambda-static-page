@@ -1,0 +1,39 @@
+{
+  "name": "aws-lambda-static-page",
+  "version": "1.0.0",
+  "description": "AWS Lambda - single, static page generator using PUG and SCSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/_mocha ./spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoftwareBrothers/aws-lambda-static-page.git"
+  },
+  "keywords": [
+    "nodejs",
+    "awslambda",
+    "serverless"
+  ],
+  "author": "Wojciech Krysiak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SoftwareBrothers/aws-lambda-static-page/issues"
+  },
+  "homepage": "https://github.com/SoftwareBrothers/aws-lambda-static-page#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "factory-girl": "^5.0.3",
+    "mocha": "^5.2.0",
+    "sinon": "^7.1.1"
+  },
+  "dependencies": {
+    "moment": "^2.22.2",
+    "node-sass": "^4.10.0",
+    "pug": "^2.0.3",
+    "require.all": "^2.0.4"
+  }
+}
