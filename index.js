@@ -8,7 +8,7 @@ const Renderer = require('./src/renderer')
  * @param {Object} event.params.querystring.yourExampleParam
  * @return {String} HTML generated view
  */
-exports.run = async (event) => {
+exports.handler = async (event) => {
   const renderer = new Renderer()
   const params = event && event.params && event.params.querystring
   const htmlResponse = renderer.render(params)

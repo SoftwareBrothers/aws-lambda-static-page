@@ -1,5 +1,5 @@
 const Renderer = require('../src/renderer')
-const { run } = require('../index')
+const { handler } = require('../index')
 
 describe('index.js', function () {
   beforeEach(function () {
@@ -7,9 +7,9 @@ describe('index.js', function () {
     this.runStub = this.sinon.stub(Renderer.prototype, 'render').returns(this.html)
   })
 
-  describe('#run', function () {
+  describe('#handler', function () {
     beforeEach(async function () {
-      this.result = await run()
+      this.result = await handler()
     })
     it('calls the Renderer render function', function () {
       expect(this.runStub.called).to.equal(true)
