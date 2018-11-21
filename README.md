@@ -79,5 +79,4 @@ asw-lambda-statc-page is Copyright © 2018 SoftwareBrothers.co. It is free softw
 We’re an open, friendly team that helps clients from all over the world to transform their businesses and create astonishing products.
 
 * We are available to [hire](https://softwarebrothers.co/contact).
-* 
-If you want to work for us - checkout the [career page](https://softwarebrothers.co/career).
+* If you want to work for us - checkout the [career page](https://softwarebrothers.co/career).
